@@ -1,0 +1,154 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res}
+
+\usepackage{ctex}
+\usepackage{indentfirst}
+\usepackage[colorlinks=true]{hyperref}
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+% \usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
+
+\begin{document} 
+
+\name{杜\ 艺卓\\[12pt]}     % the \\[12pt] adds a blank
+				        % line after name      
+
+\address{
+  \bf  现居地址\\
+    北京交通大学\\
+    北京市海淀区，100044\\
+    \href{mailto:du.yizhuo@icloud.com}{du.yizhuo@icloud.com}
+}
+
+\address{
+  \bf 在线资料 \\
+    \href{http://blog.duyizhuo.com}             {Blog}  \\
+    \href{https://github.com/dyzdyz010}         {Github} \\  
+    \href{http://segmentfault.com/u/dyzdyz010}  {SegmentFault}
+}
+                                  
+\begin{resume}
+
+\section{求职意向}
+\noindent
+    实习\\
+    iOS 程序开发\\
+    Cocos2d 游戏开发\\
+    Node.js、Golang等服务器端开发\\
+
+\section{教育经历}
+\noindent
+    北京交通大学\\
+    2010-2014\\
+    软件工程专业，数字媒体方向\\
+
+
+\section{项目经历}
+    \vspace{-0.1in}
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf 交大资讯通（未上架）} \>  iOS应用  \>2011.秋 - 2012.春\\
+                          \centerline{北京交通大学『新软攀峰』软件设计大赛二等奖}
+    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    收集交大周边信息并允许用户评论与分享。\\
+    本人负责利用 {\bf Core Data} 与 {\bf ASIHttpRequest} 网络库实现客户端与服务器的数据交互与存储。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf iCollege} \>  PHP 网站  \> ~~~~~~~~~~~~ 2012.夏\\
+                          \>『数据结构』课程项目
+    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    交大资讯通 iPhone 客户端的 Web 扩展，增加了 UGC 功能，并结合了 Google Maps 的使用。\\
+    本人负责生成地标信息页面和地标信息展示页面的设计与制作，以及 Google Maps 接口的使用。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf PP Piano} \> Windows RT 应用 \> ~~~~~~~~~~~~ 2012.冬\\
+                          \>微软『编程马拉松』二等奖
+    \end{tabbing}\vspace{-20pt}
+    Windows RT 钢琴模拟应用。\\
+    本人负责音色文件读取、存储以及使用。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf 星际2争霸秘笈}  \>Windows RT 应用\> ~~~~~~~~~~~~ 2012.冬\\
+                          \>微软『编程马拉松』特等奖
+    \end{tabbing}\vspace{-20pt}
+    Windows RT 『星际争霸2』展示应用。内含游戏宣传视频、三大种族基本信息、兵种详细信息、以及各族常用战术介绍。\\
+    本人负责页面逻辑的架构，搜集图片资源和信息。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions          
+      {\bf 鹿王本生（未上架）}  \> iPad 应用 \> ~~~~~~~~~~~~ 2012.冬\\
+                          \centerline{2012年『北京市大学生动漫设计竞赛』一等奖（数字艺术类）}
+    \end{tabbing}\vspace{-20pt}
+    通过虚拟成像展示『鹿王本生』的故事。  \\
+    本人负责利用 Vuforia SDK 生成指定图片的识别特征，并在程序中检测摄像头中的图像，进行匹配。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf 旅行心愿单（未上架）} \>  iOS 应用  \> ~~~~~~~~~~~~ 2013.春\\
+                          \centerline{北京交通大学『新软攀峰』软件设计大赛一等奖}
+    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    允许用户拍照，给照片贴上标签，并分享给其他人。能够记录用户拍照的地点，并在地图中展示出来。
+    本人负责制定网络接口规范并实现。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf 水果嘉年华（未上架）} \>  iOS 游戏  \> 2012.秋 - 2013.夏\\
+                          \centerline{同『北京服装学院』合作项目}
+    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    与『北京服装学院』合作，基于 Cocos2d 的 iPhone 游戏。以各种水果为主题，由数十个小游戏组成，包含成就系统，并且可以将成绩分享到新浪微博。\\
+    本人负责游戏暂停与游戏结束逻辑的构建与实现，并负责其中四个小游戏的全部实现。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf Moonlightter} \>   Golang 网站  \> ~~~~~~~~~~~~ 2013.春\\
+                          \>课外 Golang 实践项目
+    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    http://moonlightter.duyizhuo.com\\
+    允许用户选择并保存自己喜欢的颜色，以预览+十六进制代码的形式展现。\\
+    前端使用了『Pure』CSS 框架，服务器端使用了 『Beego』Web 框架，数据库使用 『MongoDB』。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf Viki智能外教（已上架）} \>  iOS 应用  \> ~~~~~~~~~~~~ 2013.夏\\
+                          \>业余外包项目
+    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    可以选择人工智能外教与其聊天，支持语音读写功能，使用了 『Google Tranlate』 与『百度翻译』等外部接口。\\
+    本人负责程序数据层以及网络接口的构建与实现。
+
+    \begin{tabbing}
+      \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+      {\bf StarTD（星际塔防）（未上架）} \>  iOS 游戏  \> ~~~~~~~~~~~~ 2013.夏\\
+                          \>暑期实训项目
+    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    iOS 塔防游戏，实现了塔防的出现敌人，炮塔攻击等基本逻辑。使用了 『Ninevehgl』 游戏引擎和 『OpenGL』 结合，同时结合了 『UIKit』。\\
+    本人负责游戏基础逻辑，地图文件的读取与解析，3D 场景解析等。
+
+\section{计算机技能}
+\noindent
+    熟悉 {\bf iOS} 下 {\bf Foundation} 框架，熟悉 {\bf ASIHTTPRequest}，{\bf AFNetworking}，{\bf GCDAsyncSocket} 等第三方类库；\\
+    熟悉 {\bf Cocos2d for iPhone} 游戏开发框架；\\
+    熟练使用 {\bf iOS} 下 单例、工厂等设计模式，熟练使用 {\bf Delegate} 编程思想；\\
+    了解 {\bf Node.js} 设计思想，了解 {\bf Express} 开发框架，有简单实践经验；\\
+    熟悉 {\bf Golang} 语言特性，熟悉 {\bf Beego} 开发框架，有简单实践经验；\\
+    了解 {\bf HTML，CSS，Javascript} 等前端开发语言，熟悉 {\bf Bootstrap，Pure} 等 CSS 框架，熟悉 {\bf Backbone.js，Angular.js} 等MV*框架；\\
+    {\bf Mac} 重度用户，熟悉 {\bf Linux} 的日常命令及使用，熟悉 Mac 环境下的软件开发与部署；\\
+    熟练使用 {\bf Git} 版本控制工具。
+ 
+\section{曾获荣誉}   
+\noindent       
+    2012 - 2013 『大学生创新实验项目』国家级『优』，题目——『基于 AR 的空间物体解析与实现』。
+ 
+\section{业余活动}
+\noindent
+    热爱新技术，关注技术前沿，《黑客与画家》、《MackTalk·人生元编程》读者；\\
+    『星际争霸2』爱好者。
+ 
+\end{resume}
+\end{document}
